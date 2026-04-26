@@ -93,6 +93,54 @@ body.dark-mode {
 }
 
 /* ///ADD/// Global Layout Styles */
+body {
+  font-family: var(--font-body);
+  background-color: var(--watchdog-white);
+  color: var(--truth-text);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+  text-align: center;
+  padding: 2rem 1rem 0;
+}
+
+main {
+  width: min(100%, 1100px);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+article {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 6px solid var(--story-subtitle);
+  box-shadow: var(--shadow);
+}
+
+video {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+footer ul {
+  list-style: none;
+  margin: 1rem 0;
+}
 
 /* ///ADD/// Global Text Styles */
 
