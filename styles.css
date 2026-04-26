@@ -198,6 +198,44 @@ fieldset {
 
 
 /* ///ADD/// medium styles 620px */
+@media (min-width: 620px) {
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  #breaking-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  #featured-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  fieldset {
+    grid-column: span 2;
+  }
+
+  button {
+    grid-column: span 2;
+  }
+}
 
 
 /* ///ADD/// large styles 920px */
