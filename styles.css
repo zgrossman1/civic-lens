@@ -190,6 +190,17 @@ input {
   padding: 0.5rem;
 }
 
+fieldset label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+fieldset input {
+  display: inline;
+  width: auto;
+  margin-right: 0.5rem;
+}
+
 fieldset {
   margin: 1rem 0;
   padding: 1rem;
