@@ -255,10 +255,52 @@ fieldset {
 }
 
 /* ///ADD/// x-large styles 1024px */
+@media (min-width: 1024px) {
+
+  main {
+    max-width: 1200px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
 
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--truth-text);
+    color: var(--watchdog-white);
+  }
 
+  article {
+    background-color: var(--blue-bulletin);
+    color: var(--watchdog-white);
+  }
+
+  fieldset {
+    border-color: var(--watchdog-white);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--watchdog-white);
+    color: var(--truth-text);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none;
+    scroll-behavior: auto;
+  }
+}
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
