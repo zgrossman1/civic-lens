@@ -163,24 +163,61 @@
     </section>
 
 
-    Stay Informed. Stay Empowered.
-    Receive text messages with the news you want to know.
+    <section id="alerts">
+      <h2>Stay Informed. Stay Empowered.</h2>
+      <p>Receive text messages with the news you want to know.</p>
 
-    Name
+      <form action="https://wp.zybooks.com/form-viewer.php" method="post">
 
-    Mobile
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
 
-    Notification Preferences
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile" name="mobile" required>
 
-    Breaking News
-    Politics
-    Weather
-    Sports
-    Entertainment
-    World
-    Financial
+        <fieldset>
+          <legend>Notification Preferences</legend>
 
-    Subscribe
+          <label>
+            <input type="checkbox" name="news" value="breaking">
+            Breaking News
+          </label>
+
+          <label>
+            <input type="checkbox" name="news" value="politics">
+            Politics
+          </label>
+
+          <label>
+            <input type="checkbox" name="news" value="weather">
+            Weather
+          </label>
+
+          <label>
+            <input type="checkbox" name="news" value="sports">
+            Sports
+          </label>
+
+          <label>
+            <input type="checkbox" name="news" value="entertainment">
+            Entertainment
+          </label>
+
+          <label>
+            <input type="checkbox" name="news" value="world">
+            World
+          </label>
+
+          <label>
+            <input type="checkbox" name="news" value="financial">
+            Financial
+          </label>
+        </fieldset>
+
+        <button type="submit">Subscribe</button>
+
+      </form>
+    </section>
 
     Follow Us
     Twitter/X
