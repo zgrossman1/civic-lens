@@ -9,11 +9,16 @@
 
 <!-- ADD Open Graph Meta for title, description, image, url, type -->
 
-<!-- ADD link to stylesheet -->
+<link rel="stylesheet" href="styles.css">
 
   <title>Civic Lens</title>
 </head>
 <body>
+
+<a href="#main-content" id="skip">Skip to Main Content</a>
+
+<!-- ADD semantic and validated HTML -->
+<!-- ADD skip to main content -->
 <!-- ADD semantic and validated HTML -->
 <!-- ADD skip to main content -->
     <button id="theme-toggle" aria-label="Toggle light/dark mode">
@@ -23,7 +28,8 @@
       </svg>
     </button>
 
-      Civic Lens
+    <header>
+      <h1>Civic Lens</h1>
       <p class="tagline">See Clearly. Know Deeply. Act Justly.</p>
       
       <nav class="mobile-nav" aria-label="Mobile Navigation">
@@ -31,12 +37,15 @@
         <label for="menu-toggle" class="menu-button">Menu</label>
         <ul class="menu">
           <li><a href="#breaking-news">Breaking News</a></li>
-          <li><a href="#featured-aticles">Featured Articles</a></li>
+          <li><a href="#featured-articles">Featured Articles</a></li>
           <li><a href="#alerts">Alerts</a></li>
           <li><a href="#social">Social</a></li>
         </ul>
       </nav>
-      
+      </header>
+
+      <main id="main-content">
+
       Welcome to Civic Lens
         We are an independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling. At Civic Lens, our mission is to expose the facts, amplify marginalized voices, and shine light on the systems that shape our society.</p>
         <blockquote class="tagline">“We don't follow the narrative. We follow the facts.”</blockquote>
@@ -118,6 +127,7 @@
         
         &copy; 2025 Civic Lens. All rights reserved.
         
+        </main>
         
   <script>
     const toggleButton = document.getElementById('theme-toggle');
