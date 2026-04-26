@@ -67,6 +67,31 @@ body.dark-mode {
 
 /* ///ADD/// Navigation Styles */
 
+.mobile-nav {
+  background-color: var(--news-flash);
+  padding: 1rem;
+}
+
+.menu {
+  list-style: none;
+  display: none;
+}
+
+.menu li {
+  margin: 0.5rem 0;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* show menu when checked */
+#menu-toggle:checked + .menu-button + .menu {
+  display: block;
+}
+
 /* ///ADD/// Global Layout Styles */
 
 /* ///ADD/// Global Text Styles */
