@@ -239,7 +239,20 @@ fieldset {
 
 
 /* ///ADD/// large styles 920px */
+@media (min-width: 920px) {
 
+  #featured-articles {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #breaking-news {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main {
+    padding: 2rem;
+  }
+}
 
 /* ///ADD/// x-large styles 1024px */
 
