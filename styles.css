@@ -143,6 +143,58 @@ footer ul {
 }
 
 /* ///ADD/// Global Text Styles */
+h1 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  border-left: 4px solid var(--news-flash);
+  padding-left: 1rem;
+}
+
+button {
+  background-color: var(--news-flash);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+fieldset {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid var(--truth-text);
+}
 
 
 /* ///ADD/// medium styles 620px */
