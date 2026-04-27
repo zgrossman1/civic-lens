@@ -265,9 +265,28 @@ input {
 }
 
 form > label {
-  display: block;
-  margin-bottom: 0.25rem;
   font-weight: bold;
+  margin-bottom: 0;
+}
+
+form > label[for="name"] {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+form > #name {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+form > label[for="mobile"] {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+form > #mobile {
+  grid-column: 2;
+  grid-row: 2;
 }
 
 fieldset label {
