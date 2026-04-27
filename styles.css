@@ -446,6 +446,10 @@ section:first-of-type h2,
   border-bottom: none;
 }
 
+footer h2 {
+  border-bottom: none;
+}
+
 @supports (selector(:has(*))) {
   body:has(#menu-toggle:checked) .mobile-nav {
     box-shadow: var(--shadow);
