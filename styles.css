@@ -26,7 +26,7 @@
   --story-subtitle: #457B9D;
   --font-body: "Source Sans 3", sans-serif;
   --font-heading: 'Merriweather', serif;
-  --shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   --transition: all 0.5s ease;
 }
 
@@ -151,6 +151,7 @@ article {
   margin: 0;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
+  box-shadow: var(--shadow);
 }
 
 video {
@@ -162,8 +163,9 @@ video {
 #breaking-news article {
   background-color: var(--news-flash);
   color: white;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-left: none;
+  box-shadow: var(--shadow);
 }
 
 footer {
@@ -357,6 +359,8 @@ fieldset {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    border: 2px solid #ccc;
+    box-shadow: var(--shadow);
   }
 
 fieldset {
@@ -413,7 +417,7 @@ fieldset {
   article {
     background-color: var(--truth-text);
     color: var(--watchdog-white);
-    border: 1px solid var(--story-subtitle);
+    border: 2px solid var(--story-subtitle);
   }
 
   fieldset {
