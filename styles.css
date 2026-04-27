@@ -26,7 +26,7 @@
   --story-subtitle: #457B9D;
   --font-body: "Source Sans 3", sans-serif;
   --font-heading: 'Merriweather', serif;
-  --shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  --shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
   --transition: all 0.5s ease;
 }
 
@@ -164,6 +164,7 @@ video {
   background-color: var(--news-flash);
   color: white;
   border: 2px solid #333;
+  box-shadow: var(--shadow);
 }
 
 footer {
