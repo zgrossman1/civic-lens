@@ -145,8 +145,13 @@ article {
 video {
   width: 100%;
   display: block;
-  border: 6px solid var(--news-flash);
   margin-top: 0.5rem;
+}
+
+#breaking-news article {
+  background-color: var(--news-flash);
+  color: white;
+  border-left: none;
 }
 
 footer {
