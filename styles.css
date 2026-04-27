@@ -43,12 +43,15 @@ body.dark-mode {
   position: absolute;
   top: 1rem;
   right: 1rem;
+  width: auto;
+  margin: 0;
+  padding: 0.25rem;
   background-color: var(--watchdog-white);
   border: 1px solid var(--blue-bulletin);
   border-radius: 1.5rem;
   cursor: pointer;
+  box-shadow: none;
 }
-
 /* ///ADD/// Skip Link Styles */
 #skip {
   position: absolute;
