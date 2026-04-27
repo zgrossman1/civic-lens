@@ -44,7 +44,6 @@ body.dark-mode article {
   background-color: var(--truth-text);
   color: var(--watchdog-white);
   border: 1px solid var(--story-subtitle);
-  border-left: 2px solid var(--story-subtitle);
 }
 
 body.dark-mode #breaking-news article {
@@ -151,7 +150,6 @@ article {
   padding: 1rem;
   margin: 0;
   border: 1px solid #ccc;
-  border-left: 2px solid var(--story-subtitle);
   border-radius: 0.25rem;
 }
 
@@ -416,7 +414,6 @@ fieldset {
     background-color: var(--truth-text);
     color: var(--watchdog-white);
     border: 1px solid var(--story-subtitle);
-    border-left: 2px solid var(--story-subtitle);
   }
 
   fieldset {
