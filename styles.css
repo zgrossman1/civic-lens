@@ -137,8 +137,7 @@ article {
   color: var(--truth-text);
   padding: 1rem;
   margin: 0;
-  border: 1px solid var(--story-subtitle);
-  border-left: 6px solid var(--story-subtitle);
+  border-left: 2px solid var(--story-subtitle);
   box-shadow: var(--shadow);
   border-radius: 0.25rem;
 }
@@ -146,8 +145,8 @@ article {
 video {
   width: 100%;
   display: block;
+  border: 6px solid var(--news-flash);
   margin-top: 0.5rem;
-  border-radius: 0.25rem;
 }
 
 footer {
