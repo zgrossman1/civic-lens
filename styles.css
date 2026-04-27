@@ -45,14 +45,12 @@ body.dark-mode article {
   color: var(--watchdog-white);
   border: 1px solid var(--story-subtitle);
   border-left: 2px solid var(--story-subtitle);
-  box-shadow: var(--shadow);
 }
 
 body.dark-mode #breaking-news article {
   background-color: var(--news-flash);
   color: white;
   border-left: none;
-  box-shadow: var(--shadow);
 }
 
 #theme-toggle {
@@ -67,7 +65,6 @@ body.dark-mode #breaking-news article {
   border: 1px solid var(--blue-bulletin);
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,8 +150,8 @@ article {
   color: var(--truth-text);
   padding: 1rem;
   margin: 0;
+  border: 1px solid #ccc;
   border-left: 2px solid var(--story-subtitle);
-  box-shadow: var(--shadow);
   border-radius: 0.25rem;
 }
 
@@ -167,6 +164,7 @@ video {
 #breaking-news article {
   background-color: var(--news-flash);
   color: white;
+  border: 1px solid #ccc;
   border-left: none;
 }
 
@@ -207,9 +205,9 @@ footer li {
 form {
   background-color: var(--news-flash);
   padding: 1.5rem;
-  box-shadow: var(--shadow);
   margin-top: 1rem;
   color: white;
+  border: 1px solid #ccc;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -263,9 +261,9 @@ form button {
   width: 100%;
   margin-top: 1rem;
   font-weight: bold;
-  box-shadow: var(--shadow);
   grid-column: span 2;
   text-transform: uppercase;
+  box-shadow: var(--shadow);
 }
 
 input {
@@ -418,7 +416,7 @@ fieldset {
     background-color: var(--truth-text);
     color: var(--watchdog-white);
     border: 1px solid var(--story-subtitle);
-    border-left: 6px solid var(--story-subtitle);
+    border-left: 2px solid var(--story-subtitle);
   }
 
   fieldset {
@@ -453,7 +451,6 @@ footer h2 {
 
 @supports (selector(:has(*))) {
   body:has(#menu-toggle:checked) .mobile-nav {
-    box-shadow: var(--shadow);
   }
 
   body:has(#menu-toggle:checked) .menu-button {
