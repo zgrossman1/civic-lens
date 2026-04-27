@@ -39,6 +39,21 @@ body.dark-mode {
   background-color: var(--truth-text);
   color: var(--watchdog-white);
 }
+
+body.dark-mode article {
+  background-color: var(--truth-text);
+  color: var(--watchdog-white);
+  border: 1px solid var(--story-subtitle);
+  border-left: 2px solid var(--story-subtitle);
+  box-shadow: var(--shadow);
+}
+
+body.dark-mode #breaking-news article {
+  background-color: var(--news-flash);
+  color: white;
+  border-left: none;
+}
+
 #theme-toggle {
   position: absolute;
   top: 1rem;
