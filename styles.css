@@ -204,6 +204,10 @@ form {
   box-shadow: var(--shadow);
   margin-top: 1rem;
   color: white;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 /* ///ADD/// Global Text Styles */
@@ -248,6 +252,7 @@ form button {
   margin-top: 1rem;
   font-weight: bold;
   box-shadow: var(--shadow);
+  grid-column: span 2;
 }
 
 input {
@@ -283,6 +288,7 @@ fieldset {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.5rem;
+  grid-column: span 2;
 }
 
 
