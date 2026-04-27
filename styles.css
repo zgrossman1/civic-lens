@@ -149,7 +149,7 @@ article {
   color: var(--truth-text);
   padding: 1rem;
   margin: 0;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 0.25rem;
   box-shadow: var(--shadow);
 }
@@ -207,7 +207,7 @@ form {
   padding: 1.5rem;
   margin-top: 1rem;
   color: white;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
