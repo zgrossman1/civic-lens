@@ -133,7 +133,8 @@ section {
 }
 
 article {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: white;
+  color: var(--truth-text);
   padding: 1rem;
   margin: 0;
   border-left: 6px solid var(--story-subtitle);
@@ -356,7 +357,7 @@ fieldset {
   }
 
   article {
-    background-color: rgba(29, 53, 87, 0.7);
+    background-color: var(--blue-bulletin);
     color: var(--watchdog-white);
   }
 
