@@ -133,10 +133,11 @@ section {
 }
 
 article {
-  background-color: white;
+  background-color: var(--watchdog-white);
   color: var(--truth-text);
   padding: 1rem;
   margin: 0;
+  border: 1px solid var(--story-subtitle);
   border-left: 6px solid var(--story-subtitle);
   box-shadow: var(--shadow);
   border-radius: 0.25rem;
@@ -357,8 +358,10 @@ fieldset {
   }
 
   article {
-    background-color: var(--blue-bulletin);
+    background-color: var(--truth-text);
     color: var(--watchdog-white);
+    border: 1px solid var(--story-subtitle);
+    border-left: 6px solid var(--story-subtitle);
   }
 
   fieldset {
