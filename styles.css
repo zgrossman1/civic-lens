@@ -444,6 +444,10 @@ section:first-of-type h2,
   border-bottom: none;
 }
 
+#featured-articles > h2 {
+  border-bottom: none;
+}
+
 footer h2 {
   border-bottom: none;
 }
