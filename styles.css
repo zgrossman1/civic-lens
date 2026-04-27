@@ -94,7 +94,7 @@ body.dark-mode #breaking-news article {
 /* ///ADD/// Navigation Styles */
 
 .mobile-nav {
-  padding: 1rem;
+  padding: 0;
 }
 
 .menu {
