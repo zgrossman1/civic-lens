@@ -239,8 +239,9 @@ p {
 }
 
 blockquote {
-  border-left: 4px solid var(--news-flash);
-  padding-left: 1rem;
+  text-align: center;
+  font-style: italic;
+  margin: 1rem auto;
 }
 
 form button {
@@ -253,6 +254,7 @@ form button {
   font-weight: bold;
   box-shadow: var(--shadow);
   grid-column: span 2;
+  text-transform: uppercase;
 }
 
 input {
@@ -297,7 +299,7 @@ fieldset {
 
   .menu {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1rem;
   }
 
